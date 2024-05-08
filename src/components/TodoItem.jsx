@@ -25,7 +25,7 @@ const TodoItem = ({ todo }) => {
 
     return (
         <>
-            <div className="flex justify-evenly items-center bg-slate-700 mx-3 md:mx-20 my-5 p-3 rounded-lg">
+            <div className="flex justify-evenly items-center bg-slate-700 md:mx-20 my-5 p-3 rounded-lg">
                 <input type="checkbox"
                     defaultChecked={todo.checked}
                     onChange={changeCheck}
